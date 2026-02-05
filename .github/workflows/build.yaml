@@ -25,4 +25,4 @@ jobs:
     needs: deploy
     steps:
       - name: hello
-        run: echo "${{var.MY_NAME}}"
+        run: echo "${{vars.MY_NAME}}"
