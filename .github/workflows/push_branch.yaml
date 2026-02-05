@@ -1,0 +1,12 @@
+name: pushopertaions
+on:
+   push:
+      branches: 
+        - main
+jobs:
+  pushoperation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pushop
+        run: demo.
+      
