@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pushop
-        run: demo.
+        run: echo "checking"
       
