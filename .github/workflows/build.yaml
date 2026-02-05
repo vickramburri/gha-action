@@ -1,8 +1,8 @@
-name: 'testworkflow'
+name: testworkflow
 on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: hello
-        run: echo "hello:"
+        run: echo "hello"
